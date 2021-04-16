@@ -1,9 +1,9 @@
-minetest.register_alias_force("cottages:straw",      "farming:straw")
-minetest.register_alias_force("castle:straw",        "farming:straw")
-minetest.register_alias_force("darkage:straw",       "farming:straw")
-minetest.register_alias_force("cottages:straw_bale", "castle_farming:bound_straw")
-minetest.register_alias_force("darkage:straw_bale",  "castle_farming:bound_straw")
-minetest.register_alias_force("castle:bound_straw",  "castle_farming:bound_straw")
+--minetest.register_alias("cottages:straw",      "farming:straw")
+minetest.register_alias("castle:straw",        "farming:straw")
+minetest.register_alias("darkage:straw",       "farming:straw")
+--minetest.register_alias("cottages:straw_bale", "castle_farming:bound_straw")
+minetest.register_alias("darkage:straw_bale",  "castle_farming:bound_straw")
+minetest.register_alias("castle:bound_straw",  "castle_farming:bound_straw")
 
 local S = minetest.get_translator(minetest.get_current_modname())
 
